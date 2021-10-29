@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/Kuo0202/MyPods.git", :tag => spec.version }
 
-  # spec.source_files  = "PodsTest/**/*"
+  # spec.source_files  = "PodsTest/**/*.{h,m,swift}"
   # spec.exclude_files = "PodsTest/**/*.plist"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -45,7 +45,7 @@ Pod::Spec.new do |spec|
   # spec.framework  = "SomeFramework"
   spec.frameworks = "UIKit", "AVKit", "AVFoundation"
   
-  spec.vendored_frameworks = "PodsTest/PallyConFPSSDK.xcframework"
+  spec.vendored_frameworks = "dynamic/PallyConFPSSDK.xcframework"
 
   # spec.library   = "Frameworks/PallyConFPSSDK"
   # spec.libraries = "iconv", "xml2"
