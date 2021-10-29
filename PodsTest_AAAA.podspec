@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "PodsTest"
+  spec.name         = "PodsTest_AAAA"
   spec.version      = "1.0.0"
   spec.summary      = "Pods Test"
   spec.swift_version = "5.0" 
