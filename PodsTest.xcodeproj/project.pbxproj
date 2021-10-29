@@ -7,33 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C21DB508272BFF9900921C4B /* PallyConFPSSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21DB504272BFF3F00921C4B /* PallyConFPSSDK.xcframework */; };
 		C2DF690927280FB500CA6F84 /* PallyConUtil in Resources */ = {isa = PBXBuildFile; fileRef = C2DF690727280FB500CA6F84 /* PallyConUtil */; };
 		C2DF690A27280FB500CA6F84 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = C2DF690827280FB500CA6F84 /* Views */; };
-		C2E78AE3272BDA6D00B2CFFE /* PallyConFPSSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E78AE2272BDA6C00B2CFFE /* PallyConFPSSDK.xcframework */; };
 		E5447ABE667EE25BBFF377ED /* Pods_PodsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BF4A2858FC1112872CE6C8 /* Pods_PodsTest.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		C28C76A3272A4279001F1DD4 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		52BF4A2858FC1112872CE6C8 /* Pods_PodsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D186A1B93DCAA06281DACFE /* Pods-PodsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodsTest.release.xcconfig"; path = "Target Support Files/Pods-PodsTest/Pods-PodsTest.release.xcconfig"; sourceTree = "<group>"; };
+		C21DB504272BFF3F00921C4B /* PallyConFPSSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PallyConFPSSDK.xcframework; sourceTree = "<group>"; };
 		C2DF68FB27280FA200CA6F84 /* PodsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DF68FF27280FA200CA6F84 /* PodsTest.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PodsTest.docc; sourceTree = "<group>"; };
 		C2DF690727280FB500CA6F84 /* PallyConUtil */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PallyConUtil; sourceTree = "<group>"; };
 		C2DF690827280FB500CA6F84 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
-		C2E78AE2272BDA6C00B2CFFE /* PallyConFPSSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PallyConFPSSDK.xcframework; sourceTree = "<group>"; };
 		CC0DBD1D5C30C1890F76BD86 /* Pods-PodsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodsTest.debug.xcconfig"; path = "Target Support Files/Pods-PodsTest/Pods-PodsTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2E78AE3272BDA6D00B2CFFE /* PallyConFPSSDK.xcframework in Frameworks */,
+				C21DB508272BFF9900921C4B /* PallyConFPSSDK.xcframework in Frameworks */,
 				E5447ABE667EE25BBFF377ED /* Pods_PodsTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,7 +57,6 @@
 		C21DB4FE272BDD5400921C4B /* dynamic */ = {
 			isa = PBXGroup;
 			children = (
-				C2E78AE2272BDA6C00B2CFFE /* PallyConFPSSDK.xcframework */,
 			);
 			path = dynamic;
 			sourceTree = "<group>";
@@ -78,6 +64,8 @@
 		C2DF68F127280FA200CA6F84 = {
 			isa = PBXGroup;
 			children = (
+				C21DB504272BFF3F00921C4B /* PallyConFPSSDK.xcframework */,
+				C21DB4FE272BDD5400921C4B /* dynamic */,
 				C2DF68FD27280FA200CA6F84 /* PodsTest */,
 				C2DF68FC27280FA200CA6F84 /* Products */,
 				800BE8E13F3CCBFD249E0E20 /* Pods */,
@@ -96,7 +84,6 @@
 		C2DF68FD27280FA200CA6F84 /* PodsTest */ = {
 			isa = PBXGroup;
 			children = (
-				C21DB4FE272BDD5400921C4B /* dynamic */,
 				C2DF690727280FB500CA6F84 /* PallyConUtil */,
 				C2DF690827280FB500CA6F84 /* Views */,
 				C2DF68FF27280FA200CA6F84 /* PodsTest.docc */,
@@ -126,7 +113,6 @@
 				C2DF68F727280FA200CA6F84 /* Sources */,
 				C2DF68F827280FA200CA6F84 /* Frameworks */,
 				C2DF68F927280FA200CA6F84 /* Resources */,
-				C28C76A3272A4279001F1DD4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -354,7 +340,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift\"",
-					"\"$(SRCROOT)/../../../../../Downloads/PallyCon-FPS-iOS-SDK-v1.12.0 2/lib\"",
+					"\"$(SRCROOT)/../../../../Downloads/PallyCon-FPS-iOS-SDK-v1.12.0 2/lib\"",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
