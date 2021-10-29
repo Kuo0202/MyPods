@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "12.0"
 
-  spec.source       = { :git => "https://github.com/Kuo0202/CocoaPodsTest.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/Kuo0202/MyPods.git", :tag => spec.version }
 
   # spec.source_files  = "PodsTest/**/*"
   # spec.exclude_files = "PodsTest/**/*.plist"
